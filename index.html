@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Focus App</title>
+  <style>
+    :root { color-scheme: dark; }
+    body{
+      margin:0; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 800px at 20% 20%, #2a2f4a 0%, #12131a 60%, #0b0b10 100%);
+      color:#f2f2f5;
+      line-height:1.5;
+    }
+    .wrap{ max-width: 920px; margin: 0 auto; padding: 56px 20px; }
+    .card{
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.10);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+      backdrop-filter: blur(10px);
+    }
+    h1{ font-size: 40px; margin: 0 0 10px; letter-spacing: -0.02em; }
+    p{ margin: 10px 0; color: rgba(242,242,245,0.86); }
+    .grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 18px; }
+    .pill{ padding: 14px; border-radius: 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); }
+    a{ color:#c9d6ff; text-decoration:none; }
+    a:hover{ text-decoration: underline; }
+    .footer{ margin-top: 18px; font-size: 14px; color: rgba(242,242,245,0.70); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Focus App</h1>
+      <p>A gentle, high-control focus companion that helps you stay on task by blocking distractions during focus sessions.</p>
+
+      <div class="grid">
+        <div class="pill">
+          <strong>Focus Sessions</strong>
+          <p>Pomodoro and Infinite Focus mode to build consistent deep work.</p>
+        </div>
+        <div class="pill">
+          <strong>Distraction Controls</strong>
+          <p>Uses Apple Screen Time APIs to block user-selected distracting apps during sessions.</p>
+        </div>
+        <div class="pill">
+          <strong>Personal Stats</strong>
+          <p>Tracks focus duration and interruptions to help users improve over time.</p>
+        </div>
+      </div>
+
+      <p style="margin-top:16px;">
+        <a href="./privacy.html">Privacy Policy</a> ·
+        <a href="./support.html">Support</a>
+      </p>
+
+      <div class="footer">
+        Contact: <a href="mailto:joshua.business168@gmail.com">joshua.business168@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
